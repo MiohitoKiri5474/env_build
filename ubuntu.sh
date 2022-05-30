@@ -1,4 +1,4 @@
-sudo apt install python3 python3-pip neofetch htop zsh zip unzip thefuck tmux
+sudo apt install python3 python3-pip neofetch htop zsh zip unzip thefuck tmux tree llvm
 sudo apt install -y aria2
 pip3 install pynvim
 
