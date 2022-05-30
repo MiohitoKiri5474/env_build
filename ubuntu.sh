@@ -4,6 +4,8 @@ pip3 install pynvim
 
 unzip zshrc.zip
 mv .oh_my_zsh/ .zshrc ~
+sudo sh -c "echo $(which zsh) >> /etc/shells" 
+chsh -s $(which zsh)
 
 unzip tmuxrc.zip
 mv .tmux/ .tmux.conf .tmux.conf.local ~
