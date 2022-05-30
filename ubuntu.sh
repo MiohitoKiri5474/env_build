@@ -21,3 +21,6 @@ mkdir ~/.config
 mv nvim ~/.config/
 nvim +UpdateRemotePlugins +qa
 nvim +PlugUpdate +qa
+
+
+reboot
